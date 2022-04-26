@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------------Nav----------------*/
+.cashcowlogo {
+    width: 50px;
+    height: 50px;
+}
+
+.cashcowlogo img {
+    width: 100%;
+    margin-left: 100px;
+}
+
+.linkbutton {
+    display: none;
+}
+
+.linkcontainer {
+    margin: 0 20px;
+}
+
+.linkcontainer2 {
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.link2 {
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: blue;
+    font-weight: 800;
+}
+
+@media (max-width:740px) {
+    .linkcontainer {
+        display: none;
+    }
+
+    .linkbutton {
+        display: inline-block;
+    }
+
+    .linkcontainer2 {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+}
+
+.barbutton {
+    padding: 0 5px;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.fa-solid {
+    font-size: 20px;
+    color: blue;
+}
+
+.link2:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.dropdown button {
+    background-color: blue;
+}
+
+.dropdown button:hover {
+    background-color: white;
+    color: blue;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: blue!important;
+    background-color: white!important;
+}
+
